@@ -1,0 +1,31 @@
+intitle:	intitle:"tesla vs edison"
+Search only in the page's title for a word or phrase. Use exact-match (quotes) for phrases.
+allintitle:	allintitle: tesla vs edison
+Search the page title for every individual term following "allintitle:". Same as multiple intitle:'s.
+inurl:	tesla announcements inurl:2016
+Look for a word or phrase (in quotes) in the document URL. Can combine with other terms.
+allinurl:	allinurl: amazon field-keywords nikon
+Search the URL for every individual term following "allinurl:". Same as multiple inurl:'s.
+intext:	intext:"orbi vs eero vs google wifi"
+Search for a word or phrase (in quotes), but only in the body/document text.
+allintext:	allintext: orbi eero google wifi
+Search the body text for every individual term following "allintext:". Same as multiple intexts:'s.
+filetype:	"tesla announcements" filetype:pdf
+Match only a specific file type. Some examples include PDF, DOC, XLS, PPT, and TXT.
+related:	related:nytimes.com
+Return sites that are related to a target domain. Only works for larger domains.
+AROUND(X)	tesla AROUND(3) edison
+Returns results where the two terms/phrases are within (X) words of each other.
+
+~	~cars
+Include synonyms. Seems to be unreliable, and synonym inclusion is default now.
++	+cars
+Force exact-match on a single phrase. Deprecated with the launch of Google+.
+daterange:	tesla announcements daterange:2457663-2457754
+Return results in the specified range. Can be inconsistent. Requires Julian dates.
+link:	link:nytimes.com
+Find pages that link to the target domain. This operator was deprecated in early 2017.
+inanchor:	inanchor:"tesla announcements"
+Find pages linked to with the specified anchor text/phrase. Data is heavily sampled.
+allinanchor:	allinanchor: tesla announcements
+Find pages with all individual terms after "inanchor:" in the inbound anchor text.
